@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Generated model artifacts (recreated by train_model.py / app auto-setup)
+models/traffic_model.pkl
+models/metrics.json
+models/confusion_matrix.png
